@@ -9,7 +9,7 @@ while True:
 
         @bot.message_handler(commands=['starting'])
         def starting_message(message):
-            bot.send_message(704752422, 'Нажми /start')
+            bot.send_message(1372812835, 'ого, маэш класный хуй')
 
         @bot.message_handler(content_types=['text'])
         def send_message(message):
